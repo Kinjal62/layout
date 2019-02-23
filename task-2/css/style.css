@@ -1,0 +1,155 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+/*top header section*/
+.top_header{
+	background-color: #1c3980;
+}
+.top_header_list{
+	color: white;
+}
+.mdc-button--dense{
+	background-color: white;
+	border: none;
+}	
+/*.mdc-list li{
+	display: inline;
+	border-right: 2px solid white;
+	font-weight: bolder;
+	padding-left: 5px;	
+}
+.mdc-list li:last-child{
+	border-right: none; 
+	}*/
+.signin, .signup{
+	border-radius: 5px;
+	float: right;
+}
+.signin{
+	background-color: #e9a93a;
+}
+.signup{
+	background-color: #cf3d3b;	
+}
+/*top and middle header section*/
+.mdc-list-item{
+	display: inline;
+}
+
+/*middle hedder section*/
+.middle_header{
+	background-color: #ffffff;
+	padding: 45px;
+}
+img{
+	height: 50px;
+	width: 70px;
+	margin-left: 50px;
+	float: left;
+}
+/*bottom header section*/
+.bottom_header{
+	background-color: #3c83c1;
+	padding: 8px;
+}
+.mdc-text-field {
+	width: 40%;
+	height: 40px;
+	margin-left: 20%;
+	border: 1px solid ;
+}	
+.search_icon{
+	margin: 5px;
+}
+.search{
+	background-color: #ecb442;
+	width: 30%;
+	height: 100%;
+	margin-left: 50px;		
+}
+/*background image section*/
+.bgimg{
+	background-image: url(../images/bgimg.jpg);
+	width: 100%;
+	height: 600px;
+	background-repeat: no-repeat;
+	position: relative;
+}
+/*destionation Name section*/
+.head1, .head2, .head3, .head4, .head5{
+	text-align: center;
+	text-shadow: 1px 1px;
+	color: white;
+}
+.content1,.content2,.content3,.content4,.content5{
+	padding: 12px;
+}
+.head1{
+	background-color: #eaac3f;
+    border: 1px solid #eaac3f;
+   
+}
+.content1{
+  	border: 1px solid #eaac3f;    
+}
+.foot1{
+ 	color: #eaac3f;
+}
+.head2{
+ 	background-color: #bc2a4d;
+   	border: 1px solid #bc2a4d; 
+}
+.content2{
+ 	border: 1px solid #bc2a4d;
+}
+.foot2{
+ 	color: #bc2a4d;
+}
+.head3{
+	background-color: #3c85c3;
+   	border: 1px solid #3c85c3;
+}
+.content3{
+	border: 1px solid #3c85c3;
+}
+.foot3{
+	color: #3c85c3;
+}
+.head4{
+	background-color: #573c8b;
+    border: 1px solid #573c8b;
+}
+.content4{
+	border: 1px solid #573c8b;
+}
+.foot4{
+	color: #573c8b;
+}
+.head5{
+	background-color: #1c3983;
+    border: 1px solid #1c3983;
+}
+.content5{
+	border: 1px solid #1c3983;
+}
+.foot5{
+   color: #1c3983;
+}
+
+.text1{
+	color: #cb2032;
+}
+.text2{
+	color:#4c2f84;
+}
+.mission{
+	border-radius: 50%;
+	height: 295px;
+    width: 284px;
+	border: 2px solid #d21f30;
+}
+.btn2{
+	float: left;
+	border-radius: 5px;
+}
