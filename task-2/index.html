@@ -12,29 +12,45 @@
 	<script type="text/javascript" src="javascript/custom.js"></script>
 	<!-- top header section -->
 	<div class="top_header">
-		<ul class="mdc-list">
+		<ul class="mdc-list selector">
 			<li class="mdc-list-item" tabindex="0">
 				<span class="mdc-list-item__text top_header_list">Call 1800 22 7979</span>
 			</li>
 			<li class="mdc-list-item">
 				<span class="mdc-list-item__text top_header_list">Select Currency:</span>
 			</li>
-			<li class="mdc-list-item">
-				<button class="mdc-button--dense">
+			<!-- 		<li class="mdc-list-item"> -->
+				<!-- <button class="mdc-button--dense">
 					<span class="mdc-button__label">INR
 						<i class="material-icons mdc-button__icon" aria-hidden="true">keyboard_arrow_down</i></span>
-					</button>
-				</li>
-				<li class="mdc-list-item"><button class="mdc-button--dense signin">
-					<span class="mdc-button__label">Sign In</span>
-				</button></li>
+					-->		<div class="mdc-select">
+						<i class="mdc-select__dropdown-icon"></i>
+						<select class="mdc-select__native-control">
+							<option value="" disabled selected></option>
+							<option value="1000">1000</option>                     
+							<option value="3000">3000</option>
+							<option value="5000">5000</option>
+						</select> 
+						<label class="mdc-floating-label">INR</label>
+
+					</div>	
+					<!-- </button> -->
+					<!-- </li> -->
+					<!-- 				<li class="mdc-list-item"> -->
+						<div class="right_header">
+							<button class="mdc-button--dense signin">
+								<span class="mdc-button__label">Sign In</span>
+							</button>
+			<!-- </li>
 				<li class="mdc-list-item">
-					<button class="mdc-button--dense signup">
-						<span class="mdc-button__label">Registration</span>
-					</button>
-				</li>
-			</div>
-		</ul>
+				-->		<button class="mdc-button--dense signup">
+					<span class="mdc-button__label">Registration</span>
+				</button>	
+				<!-- </li>
+				-->	</div>
+
+			</ul>
+		</div>
 		<!-- middle header section -->
 		<div class="middle_header">
 			<div class="img_section">
@@ -83,9 +99,10 @@
 		<div class="content">
 			<div class="mdc-layout-grid">
 				<div class="mdc-layout-grid__inner">
-					<div class="mdc-layout-grid__cell">
-						<h1 class="mdc-typography--headline4">Summer Offers</h1>
-						<p class="mdc-typography--subtitle2">Lorem ipsum dolor sit amet, ex dicam definitiones cum. Falli decore quaeque eu est. Has ad salutatus deseruisse, sit fuisset democritum delicatissimi id. Id probo veniam honestatis vel. Mel modus imperdiet gubergren in, eam at inani doctus repudiandae. Ad per eros solum appetere.</p>
+					<div class="mdc-layout-grid__cell--span2"></div>
+					<div class="mdc-layout-grid__cell--span-4">
+						<h1 class="mdc-typography--headline4 title">Summer Offers</h1>
+						<p class="mdc-typography--subtitle2 content_text">Lorem ipsum dolor sit amet, ex dicam definitiones cum. Falli decore quaeque eu est. Has ad salutatus deseruisse, sit fuisset democritum delicatissimi id. Id probo veniam honestatis vel. Mel modus imperdiet gubergren in, eam at inani doctus repudiandae. Ad per eros solum appetere.</p>
 					</div>
 				</div>
 			</div>
@@ -105,7 +122,7 @@
 			</div>	
 			<div class="mdc-layout-grid__cell--span-2">
 				<div class="head1">
-					<h2>Asia</h2>
+					<h2>ASIA</h2>
 				</div>
 				<div class="content1">
 					<p> > Las Vegas</p>
@@ -119,7 +136,7 @@
 			</div>
 			<div class="mdc-layout-grid__cell--span-2">
 				<div class="head2">
-					<h2>Asia</h2>
+					<h2>AMERICAS</h2>
 				</div>
 				<div class="content2">
 					<p> > Las Vegas</p>
@@ -133,7 +150,7 @@
 			</div>
 			<div class="mdc-layout-grid__cell--span-2">
 				<div class="head3">
-					<h2>Asia</h2>
+					<h2>EUROPE</h2>
 
 				</div>
 				<div class="content3">
@@ -148,7 +165,7 @@
 			</div>
 			<div class="mdc-layout-grid__cell--span-2">
 				<div class="head4">
-					<h2>Asia</h2>
+					<h2>AFRICA</h2>
 				</div>
 				<div class="content4">
 					<p> > Las Vegas</p>
@@ -162,7 +179,7 @@
 			</div>
 			<div class="mdc-layout-grid__cell--span-2">
 				<div class="head5">
-					<h2>Asia</h2>
+					<h2>AUSTRALIA</h2>
 				</div>
 				<div class="content5">
 					<p> > Las Vegas</p>
@@ -177,7 +194,7 @@
 		</div>
 	</div>
 	<!-- 3rd section start -->
-	<div class="mdc-layout-grid">
+	<div class="mdc-layout-grid" style="background-color: lightgray;">
 		<div class="mdc-layout-grid__inner">
 			<div class="mdc-layout-grid__cell--span-4"></div>
 			<div class="mdc-layout-grid__cell--span-8">
@@ -191,9 +208,379 @@
 			<div class="mdc-layout-grid__cell--span-6">
 				<h1 class="mdc-typography--headline6">About Us</h1>
 				<p class="mdc-typography--subtitle2">Lorem ipsum dolor sit amet, ex dicam definitiones cum. Falli decore quaeque eu est. Has ad salutatus deseruisse, sit fuisset democritum delicatissimi id. Id probo veniam honestatis vel. Mel modus imperdiet gubergren in, eam at inani doctus repudiandae. Ad per eros solum appetere. Lorem ipsum dolor sit amet, ex dicam definitiones cum. Falli decore quaeque eu est. Has ad salutatus deseruisse, sit fuisset democritum delicatissimi id. Id probo veniam honestatis vel. Mel modus imperdiet gubergren in, eam at inani doctus repudiandae. Ad per eros solum appetere. </p>
+				<p class="mdc-typography--subtitle2">Lorem ipsum dolor sit amet, ex dicam definitiones cum. Falli decore quaeque eu est. Has ad salutatus deseruisse, sit fuisset democritum delicatissimi id. Id probo veniam honestatis vel. Mel modus imperdiet gubergren in, eam at inani doctus repudiandae. Ad per eros solum appetere.</p>
 				<button class="mdc-button--dense btn2">
 					<span class="mdc-button__label">Read More</span>
 				</button>
+			</div>
+		</div>
+	</div>
+	<div class="mdc-layout-grid">
+		<div class="mdc-layout-grid__inner">
+			<div class="mdc-layout-grid__cell--span-5"></div>
+			<div class="mdc-layout-grid__cell--span-7">
+				<h1 class="mdc-typography--headline4">India <span style="color:#e99e2d;">TOURS</span></h1>
+
+			</div>
+		</div>
+	</div>
+	<div class="mdc-layout-grid">
+		<div class="mdc-layout-grid__inner">
+			<div class="mdc-layout-grid__cell--span-4">
+				<div class="mdc-card demo-card">
+					<div class="mdc-card__primary-action" tabindex="0">
+						<div class="mdc-card__media mdc-card__media--16-9 demo-card__media1">
+						</div>
+						<div class="demo-card__primary">
+							<h2 class="demo-card__title mdc-typography--headline6">Andaman Tour Packages</h2>
+							<h3 class="demo-card__subtitle mdc-typography--subtitle2"><span class="arrow1">></span class="arrow1">Port Blair  <span class="arrow1">></span>HaveLock  <span class="arrow1">></span>Neil Isaland</h3>
+						</div>
+						<div class="mdc-card__action">
+							<div class="mdc-card__action-buttons">
+								<button class="mdc-button--dense btn1">
+									<span class="mdc-button__label">VIEW MORE</span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="mdc-layout-grid__cell--span-4">
+				<div class="mdc-card demo-card">
+					<div class="mdc-card__primary-action" tabindex="0">
+						<div class="mdc-card__media mdc-card__media--16-9 demo-card__media2">
+						</div>
+						<div class="demo-card__primary">
+							<h2 class="demo-card__title mdc-typography--headline6">Andaman Tour Packages</h2>
+							<h3 class="demo-card__subtitle mdc-typography--subtitle2"><span class="arrow2">></span>Port Blair  <span class="arrow2">></span>HaveLock  <span class="arrow2">></span>Neil Isaland</h3>
+						</div>
+						<div class="mdc-card__action">
+							<div class="mdc-card__action-buttons">
+								<button class="mdc-button--dense btn2">
+									<span class="mdc-button__label">VIEW MORE</span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="mdc-layout-grid__cell--span-4">
+				<div class="mdc-card demo-card">
+					<div class="mdc-card__primary-action" tabindex="0">
+						<div class="mdc-card__media mdc-card__media--16-9 demo-card__media3">
+						</div>
+						<div class="demo-card__primary">
+							<h2 class="demo-card__title mdc-typography--headline6">Andaman Tour Packages</h2>
+							<h3 class="demo-card__subtitle mdc-typography--subtitle2"><span class="arrow3">></span>Port Blair  <span class="arrow3">></span>HaveLock  <span class="arrow3">></span>Neil Isaland</h3>
+						</div>
+						<div class="mdc-card__action">
+							<div class="mdc-card__action-buttons">
+								<button class="mdc-button--dense btn3">
+									<span class="mdc-button__label">VIEW MORE</span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="mdc-layout-grid__cell--span-4">
+				<div class="mdc-card demo-card">
+					<div class="mdc-card__primary-action" tabindex="0">
+						<div class="mdc-card__media mdc-card__media--16-9 demo-card__media4">
+						</div>
+						<div class="demo-card__primary">
+							<h2 class="demo-card__title mdc-typography--headline6">Andaman Tour Packages</h2>
+							<h3 class="demo-card__subtitle mdc-typography--subtitle2"><span class="arrow4">></span>Port Blair  <span class="arrow4">></span>HaveLock  <span class="arrow4">></span>Neil Isaland</h3>
+						</div>
+						<div class="mdc-card__action">
+							<div class="mdc-card__action-buttons">
+								<button class="mdc-button--dense btn4">
+									<span class="mdc-button__label">VIEW MORE</span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="mdc-layout-grid__cell--span-4">
+				<div class="mdc-card demo-card">
+					<div class="mdc-card__primary-action" tabindex="0">
+						<div class="mdc-card__media mdc-card__media--16-9 demo-card__media5">
+						</div>
+						<div class="demo-card__primary">
+							<h2 class="demo-card__title mdc-typography--headline6">Andaman Tour Packages</h2>
+							<h3 class="demo-card__subtitle mdc-typography--subtitle2"><span class="arrow5">></span class="arrow5">Port Blair  <span class="arrow5">></span>HaveLock  <span class="arrow5">></span class="arrow5">Neil Isaland</h3>
+							</div>
+							<div class="mdc-card__action">
+								<div class="mdc-card__action-buttons">
+									<button class="mdc-button--dense btn5">
+										<span class="mdc-button__label">VIEW MORE</span>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="mdc-layout-grid__cell--span-4">
+					<div class="mdc-card demo-card">
+						<div class="mdc-card__primary-action" tabindex="0">
+							<div class="mdc-card__media mdc-card__media--16-9 demo-card__media6">
+							</div>
+							<div class="demo-card__primary">
+								<h2 class="demo-card__title mdc-typography--headline6">Andaman Tour Packages</h2>
+								<h3 class="demo-card__subtitle mdc-typography--subtitle2"><span class="arrow6">></span>Port Blair <span class="arrow6">></span>HaveLock <span class="arrow6">></span>Neil Isaland</h3>
+							</div>
+							<div class="mdc-card__action">
+								<div class="mdc-card__action-buttons">
+									<button class="mdc-button--dense btn6">
+										<span class="mdc-button__label">VIEW MORE</span>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="mdc-layout-grid">
+		<div class="mdc-layout-grid__inner">
+			<div class="mdc-layout-grid__cell--span-4"></div>
+			<div class="mdc-layout-grid__cell--span-8">
+				<h1 class="mdc-typography--headline4">Best Selling <span style="color:#137aba;">HOLYDAYS</span></h1>
+
+			</div>
+		</div>
+	</div>
+		<div class="mdc-layout-grid">
+			<div class="mdc-layout-grid__inner">
+				<div class="mdc-layout-grid__cell--span-3"></div>
+				<div class="mdc-layout-grid__cell--span-9">
+					<div class="mdc-layout-grid tab_section">
+						<div class="mdc-layout-grid__inner">
+							<div class="mdc-layout-grid__cell--span-4">
+								<div class="holidays">
+									<label>(3N/4D)</label>
+									<h3 class="holidays_txt1">Rs.6800</h3>
+									<p class="mdc-typography--caption">Per Person</p>
+									<p style="text-align: center;">Bali 4 Star Package for 4 Days</p>
+									<center><button class="mdc-button--dense holidays_btn1">
+										<span class="mdc-button__label ">VIEW MORE</span>
+									</button></center>
+								</div>
+
+							</div>
+							<div class="mdc-layout-grid__cell--span-4">
+								<div class="holidays">
+									<label>(3N/4D)</label>
+									<h3 class="holidays_txt2">Rs.6800</h3>
+									<p class="mdc-typography--caption">Per Person</p>
+									<p style="text-align: center;">Bali 4 Star Package for 4 Days</p>
+									<center><button class="mdc-button--dense holidays_btn2">
+										<span class="mdc-button__label ">VIEW MORE</span>
+									</button></center>
+								</div>
+
+							</div>
+							<div class="mdc-layout-grid__cell--span-4">
+								<div class="holidays">
+									<label>(3N/4D)</label>
+									<h3 class="holidays_txt3">Rs.6800</h3>
+									<p class="mdc-typography--caption">Per Person</p>
+									<p style="text-align: center;">Bali 4 Star Package for 4 Days</p>
+									<center><button class="mdc-button--dense holidays_btn3">
+										<span class="mdc-button__label ">VIEW MORE</span>
+									</button></center>
+								</div>
+
+							</div>
+
+
+						</div>
+
+					</div>
+					<div class="mdc-layout-grid tab_section">
+						<div class="mdc-layout-grid__inner">
+							<div class="mdc-layout-grid__cell--span-4">
+								<div class="holidays">
+									<label>(3N/4D)</label>
+									<h3 class="holidays_txt4">Rs.6800</h3>
+									<p class="mdc-typography--caption">Per Person</p>
+									<p style="text-align: center;">Bali 4 Star Package for 4 Days</p>
+									<center><button class="mdc-button--dense holidays_btn4">
+										<span class="mdc-button__label ">VIEW MORE</span>
+									</button></center>
+								</div>
+
+							</div>
+							<div class="mdc-layout-grid__cell--span-4">
+								<div class="holidays">
+									<label>(3N/4D)</label>
+									<h3 class="holidays_txt5">Rs.6800</h3>
+									<p class="mdc-typography--caption">Per Person</p>
+									<p style="text-align: center;">Bali 4 Star Package for 4 Days</p>
+									<center><button class="mdc-button--dense holidays_btn5">
+										<span class="mdc-button__label ">VIEW MORE</span>
+									</button></center>
+								</div>
+
+							</div>
+							<div class="mdc-layout-grid__cell--span-4">
+								<div class="holidays">
+									<label>(3N/4D)</label>
+									<h3 class="holidays_txt6">Rs.6800</h3>
+									<p class="mdc-typography--caption">Per Person</p>
+									<p style="text-align: center;">Bali 4 Star Package for 4 Days</p>
+									<center><button class="mdc-button--dense holidays_btn6">
+										<span class="mdc-button__label ">VIEW MORE</span>
+									</button></center>
+								</div>
+
+							</div>
+
+
+						</div>
+
+					</div>
+					<div class="mdc-layout-grid tab_section">
+						<div class="mdc-layout-grid__inner">
+							<div class="mdc-layout-grid__cell--span-4">
+								<div class="holidays">
+									<label>(3N/4D)</label>
+									<h3 class="holidays_txt1">Rs.6800</h3>
+									<p class="mdc-typography--caption">Per Person</p>
+									<p style="text-align: center;">Bali 4 Star Package for 4 Days</p>
+									<center><button class="mdc-button--dense holidays_btn1">
+										<span class="mdc-button__label ">VIEW MORE</span>
+									</button></center>
+								</div>
+
+							</div>
+							<div class="mdc-layout-grid__cell--span-4">
+								<div class="holidays">
+									<label>(3N/4D)</label>
+									<h3 class="holidays_txt2">Rs.6800</h3>
+									<p class="mdc-typography--caption">Per Person</p>
+									<p style="text-align: center;">Bali 4 Star Package for 4 Days</p>
+									<center><button class="mdc-button--dense holidays_btn2">
+										<span class="mdc-button__label ">VIEW MORE</span>
+									</button></center>
+								</div>
+
+							</div>
+							<div class="mdc-layout-grid__cell--span-4">
+								<div class="holidays">
+									<label>(3N/4D)</label>
+									<h3 class="holidays_txt3"e>Rs.6800</h3>
+									<p class="mdc-typography--caption">Per Person</p>
+									<p style="text-align: center;">Bali 4 Star Package for 4 Days</p>
+									<center><button class="mdc-button--dense holidays_btn3">
+										<span class="mdc-button__label ">VIEW MORE</span>
+									</button></center>
+								</div>
+
+							</div>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="mdc-layout-grid">
+			<div class="mdc-layout-grid__inner">
+				<div class="mdc-layout-grid__cell--span-4"></div>
+				<div class="mdc-layout-grid__cell--span-8">
+					<h1 class="mdc-typography--headline4">Recent Traveller <span style="color:#951545;">REVIEWS</span></h1>
+				</div>
+			</div>
+		</div>
+		<div class="mdc-layout-grid footer">
+			<div class="mdc-layout-grid__inner">
+				<div class="mdc-layout-grid__cell--span-2">
+
+				</div>
+				<div class="mdc-layout-grid__cell--span-3">
+
+					<p class="mdc-typography--headline6 footer_about">ABOUT US</p>
+					<p class="f_about_p">Lorem ipsum dolor sit amet, ea alii oportere eam, munere patrioque scripserit mea in. Facilisis liberavisse definitiones cu per, cu nec habemus reprehendunt, tantas rationibus ut cum. Eirmod pericula ea cum, pro sale lucilius similique no. Nec verterem adipiscing et, te wisi quas aperiam qui.</p>
+					<div class="mdc-layout-grid__inner">
+						<div class="mdc-layout-grid__cell--span-2">
+							<img src="images/map-marker.png" class="f_img">
+						</div>
+						<div class="mdc-layout-grid__cell--span-10">
+							<p class="f_about_p">Street addresses: 445 Mount Eden Road, Mount Eden, Auckland.
+								Rural addresses: 21 Greens Road RD 2 Ruawai 0592.
+								Partial addresses: Main Highway Otaki; 32 Wilson Street.
+							Postcodes: 5022.</p>
+						</div>	
+					</div>	
+				</div>
+				<div class="mdc-layout-grid__cell--span-1"></div>
+				<div class="mdc-layout-grid__cell--span-6">
+					<p class="mdc-typography--headline6 footer_destination">OUR DESTINATIONS</p>
+					<div class="mdc-layout-grid__inner">
+						<div class="mdc-layout-grid__cell--span-2 f_margin">
+							<p class="mdc-typography--subtitle f_title1">EUROPE</p>
+							<p class="f_about_p"><label class="f_title1">></label> Austria</p>
+							<p class="f_about_p"><label class="f_title1">></label> India</p>
+							<p class="f_about_p"><label class="f_title1">></label> New York</p>
+							<p class="f_about_p"><label class="f_title1">></label> Orlando</p>
+							<p class="f_about_p"><label class="f_title1">></label> Russia</p>
+							<p class="f_about_p"><label class="f_title1">></label> Spain</p>
+							<p class="f_about_p"><label class="f_title1">></label>Switzerland</p>
+							<p class="f_about_p"><label class="f_title1">></label> France</p>
+						</div>
+						<div class="mdc-layout-grid__cell--span-2  f_margin">
+							<p class="mdc-typography--subtitle footer_destination">INDIA</p>
+							<p class="f_about_p"><label class="footer_destination">></label> Austria</p>
+							<p class="f_about_p"><label class="footer_destination">></label> India</p>
+							<p class="f_about_p"><label class="footer_destination">></label> New York</p>
+							<p class="f_about_p"><label class="footer_destination">></label> Orlando</p>
+							<p class="f_about_p"><label class="footer_destination">></label> Russia</p>
+							<p class="f_about_p"><label class="footer_destination">></label> Spain</p>
+							<p class="f_about_p"><label class="footer_destination">></label>Switzerland</p>
+							<p class="f_about_p"><label class="footer_destination">></label> France</p>
+							<p class="f_about_p"><label class="f_title1">></label> New York</p>
+							<p class="f_about_p"><label class="f_title1">></label> Orlando</p>
+						</div>
+						<div class="mdc-layout-grid__cell--span-2  f_margin">
+							<p class="mdc-typography--subtitle f_title3">USA</p>
+							<p class="f_about_p"><label class="f_title3">></label> Austria</p>
+							<p class="f_about_p"><label class="f_title3">></label> India</p>
+							<p class="f_about_p"><label class="f_title3">></label> New York</p>
+							<p class="f_about_p"><label class="f_title3">></label> Orlando</p>
+							<p class="f_about_p"><label class="f_title3">></label>Switzerland</p>
+							<p class="f_about_p"><label class="f_title3">></label> France</p>
+						</div>
+						<div class="mdc-layout-grid__cell--span-2  f_margin">
+							<p class="mdc-typography--subtitle f_title4">FAR EAST</p>
+							<p class="f_about_p"><label class="f_title4">></label> Austria</p>
+							<p class="f_about_p"><label class="f_title4">></label> India</p>
+							<p class="f_about_p"><label class="f_title4">></label> New York</p>
+							<p class="f_about_p"><label class="f_title4">></label> Orlando</p>
+							<p class="f_about_p"><label class="f_title4">></label> Russia</p>
+							<p class="f_about_p"><label class="f_title4">></label> Spain</p>
+							<p class="f_about_p"><label class="f_title4">></label>Switzerland</p>
+							<p class="f_about_p"><label class="f_title4">></label> France</p>
+							<p class="f_about_p"><label class="f_title5">></label> Russia</p>
+							<p class="f_about_p"><label class="f_title5">></label> Spain</p>
+						</div>
+						<div class="mdc-layout-grid__cell--span-4  f_margin">
+							<p class="mdc-typography--subtitle f_title5">AFRICA</p>
+							<p class="f_about_p"><label class="f_title5">></label> Austria</p>
+							<p class="f_about_p"><label class="f_title5">></label> India</p>
+							<p class="f_about_p"><label class="f_title5">></label> New York</p>
+							<p class="f_about_p"><label class="f_title5">></label> Orlando</p>
+							<p class="mdc-typography--subtitle f_title6">MIDDLE EAST</p>
+							<p class="f_about_p"><label class="f_title6">></label> Russia</p>
+							<p class="f_about_p"><label class="f_title6">></label> Spain</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="mdc-layout-grid__inner footer_bottom">
+				<div class="mdc-layout-grid__cell--span-12">
+					<center><p>@ 2018 TMG.All Rights Reserved</p></center>
+				</div>
 			</div>
 		</div>
 	</body>
