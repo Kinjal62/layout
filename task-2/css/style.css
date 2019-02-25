@@ -6,6 +6,18 @@ body{
 .top_header{
 	background-color: #1c3980;
 }
+/*for selector*/
+.selector{
+	border-bottom: 15px;
+}
+.selector li{
+	border-right: 1px solid white;
+	color: white;
+}
+.selector li:last-child{
+	border-right: none;
+}
+/*top header left side*/
 .top_header_list{
 	color: white;
 }
@@ -23,16 +35,6 @@ body{
 	border-right: none; 
 }
 */
-.selector{
-	border-bottom: 15px;
-}
-.selector li{
-	border-right: 1px solid white;
-	color: white;
-}
-.selector li:last-child{
-	border-right: none;
-}
 .right_header{
   float: right;
   margin-right: 20px; 
@@ -96,6 +98,7 @@ body{
 	margin-left: 50px;	
 	color: #ffffff;	
 }
+/*1st section*/
 /*background image section*/
 .bgimg{
 	background-image: url(../images/bgimg.jpg);
@@ -107,7 +110,7 @@ body{
 .title{
 	text-transform: uppercase;
 }
-}
+/*2nd section*/
 /*destionation Name section*/
 .head1, .head2, .head3, .head4, .head5{
 	text-align: center;
@@ -120,7 +123,6 @@ body{
 .head1{
 	background-color: #eaac3f;
 	border: 1px solid #eaac3f;
-
 }
 .content1{
 	border: 1px solid #eaac3f;    
@@ -168,15 +170,15 @@ body{
 .foot5{
 	color: #1c3983;
 }
-
 .text1{
 	color: #cb2032;
 }
+/*3rd section*/
 .text2{
 	color:#4c2f84;
 }
-.text3{
-	color: #e5a137;
+.mission_header{
+	background-color: lightgrey;
 }
 .mission{
 	border-radius: 50%;
@@ -229,6 +231,9 @@ body{
 .btn6{
 	background-color: #26408a;
 }
+.text3{
+	color: #e5a137;
+}
 .mdc-card__media {
 	position: relative;
 	-webkit-box-sizing: border-box;
@@ -261,68 +266,74 @@ body{
 .mdc-card__action{
 	padding-bottom: 10px;
 }
+/*5th section start*/
 .text4{
 	color: #197bba;
+}
+.holidays {
+  	border:1px solid lightgray;
+}
+.holidays_btn1, .holidays_btn2, .holidays_btn3, .holidays_btn4, .holidays_btn5, .holidays_btn6{
+	margin-bottom:15px;
+	border-radius: 5px;
+	color: #ffffff;
+}
+.holidays_txt1, .holidays_txt2, .holidays_txt3, .holidays_txt4, .holidays_txt5, .holidays_txt6{
+	text-align: center;
+}
+.holidays label{
+  	margin-left: 200px;
+ 	margin-top: 10px;
+}
+.holidays_txt1{
+  	color:#6c4c95;
+}
+.holidays_btn1{
+	background-color: #6c4c95;
+}
+.holidays_txt2{
+  	color:#d7383c;
+ }
+.holidays_btn2{
+  	background-color: #d7383c;
+}
+.holidays_txt3{
+  	color:#153b86;
+}
+.holidays_btn3{
+  	background-color: #153b86;
+}
+.holidays_txt4{
+  	color:#a31a46;
+}
+.holidays_btn4{
+  	background-color: #a31a46;
+}
+.holidays_txt5{
+  	color:#ebaf41;
+}
+.holidays_btn5{
+  	background-color: #ebaf41;
+  	background-image: linear-gradient(#f5e67b,#e6a02a);
+}
+.holidays_txt6{
+  	color:#2d87c3;
+}
+.holidays_btn6{
+  	background-color: #2d87c3;
+}
+.subheader, .para_txt{
+	text-align: center;
+}
+.tab_section{
+  	padding-right: 20px;
+   	margin-top: 20px;
 }
 .text5{
 	color: #9d1448;
 }
-
-/*holidays*/
-.holidays {
-  /*background-color:lightgray;*/
-  border:1px solid lightgray;
-}
- .holidays label{
-  margin-left: 235px;
-  margin-top: 10px;
- }
-.holidays_txt1{
-  color:#6c4c95;
- }
-.holidays_btn1{
-  margin-bottom:15px;
-  background-color: #6c4c95;
-}
-.holidays_txt2{
-  color:#d7383c;
- }
-.holidays_btn2{
-  margin-bottom:15px;
-  background-color: #d7383c;
-}
-.holidays_txt3{
-  color:#153b86;
- }
-.holidays_btn3{
-  margin-bottom:15px;
-  background-color: #153b86;
-}
-.holidays_txt4{
-  color:#a31a46;
- }
-.holidays_btn4{
-  margin-bottom:15px;
-  background-color: #a31a46;
-}
-.holidays_txt5{
-  color:#ebaf41;
- }
-.holidays_btn5{
-  margin-bottom:15px;
-  background-color: #ebaf41;
-  background-image: linear-gradient(#f5e67b,#e6a02a);
-}
-.holidays_txt6{
-  color:#2d87c3;
- }
-.holidays_btn6{
-  margin-bottom:15px;
-  background-color: #2d87c3;
-}
-.tab_section{
-  padding-right: 20px;
-   margin-top: 20px;
+.text6{
+	color: #951545
 }
 .footer{
   background-color: #3f3f41;
@@ -336,13 +347,14 @@ body{
 .f_img{
   margin-top: 13px;
 }
-.footer_destination{
+.footer_list{
   color: #ed8f4f;
+  font-family: 'work_sansbold';
 }
 .f_margin{
   margin-top: -25px;
 }
-.f_title1{
+.footer_title{
   color:#ffdb77;
 }
 .f_title3{
