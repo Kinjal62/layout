@@ -48,10 +48,10 @@ body{
 	font-family: 'work_sansregular';
 }
 .signin{
-	background-color: #e9a93a;
+	background-image: linear-gradient(#f8d86d, #e6a02b);
 }
 .signup{
-	background-color: #cf3d3b;	
+	background-image: linear-gradient(#ea7a4c, #cf1e2d);
 }
 /*top and middle header section*/
 .mdc-list-item{
@@ -87,15 +87,14 @@ body{
 .mdc-text-field {
 	width: 40%;
 	height: 40px;
-	margin-left: 20%;
-	border: 1px solid ;
+	margin-left: 15%;
 }	
 .search_icon{
 	margin: 5px;
 	color: black;
 }
 .search{
-	background-color: #ecb442;
+	background-image: linear-gradient(#f8d870, #e6a537);
 	width: 30%;
 	height: 100%;
 	margin-left: 50px;	
@@ -112,6 +111,9 @@ body{
 }
 .title{
 	text-transform: uppercase;
+}
+.content_txt{
+	color: black;
 }
 /*2nd section*/
 /*destionation Name section*/
@@ -195,7 +197,6 @@ body{
 .btn1, .btn2, .btn3, .btn4, .btn5, .btn6{
 	border-radius: 5px;
 	color: white;
-	
 }
 .arrow1,.arrow2, .arrow3, .arrow4, .arrow5, .arrow6{
 	padding-left: 12px; 
@@ -330,20 +331,51 @@ body{
 .subheader, .para_txt{
 	text-align: center;
 }
-.tab_section{
+/*.tab_section{
   	padding-right: 20px;
    	margin-top: 20px;
-}
+}*/
 .text5{
 	color: #9d1448;
 }
 .text6{
 	color: #951545
 }
+
 /*6th section*/
 .banner{
-	background-image: url(../images/bgimg.jpg);
-	margin-bottom: 5px;
+	background-image: url(../images/banner.jpeg);
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	background-attachment: fixed;
+}
+.profile{
+	height: 200px;
+	width: 200px;
+	border-radius: 180px;
+	margin-left: 204px;
+}
+.content_text{
+	color: #ffffff;
+	margin-left: 204px;
+}
+.content_p{
+	color: #ffffff;
+	margin-left: 0;
+}
+.title{
+	margin-left: 204px;
+}
+.tabs{
+	font-family: 'work_sansbold';
+}
+.material-icons{
+	color: #eebb47;
+}
+.rating{
+	color: #999999;	
 }
 /*footer section start*/
 .footer{
