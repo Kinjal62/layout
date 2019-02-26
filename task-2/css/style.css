@@ -8,6 +8,7 @@ body{
 }
 .bgcard{
 	background: linear-gradient(to bottom, #ddd6f3 0%, #faaca8 100%);
+	font-family: 'work_sansregular';
 }
 .mdc-card{
 	padding: 5px;
@@ -26,22 +27,13 @@ body{
 /*top header left side*/
 .top_header_list{
 	color: white;
-	/*font-family: 'work_sansregular';*/
+	font-family: 'work_sansregular';
 }
 .mdc-button--dense{
 	background-color: white;
 	border: none;
 }	
-/*.mdc-list li{
-	display: inline;
-	border-right: 2px solid white;
-	font-weight: bolder;
-	padding-left: 5px;	
-}
-.mdc-list li:last-child{
-	border-right: none; 
-}
-*/
+
 .right_header{
   float: right;
   margin-right: 20px; 
@@ -51,7 +43,7 @@ body{
 	border-radius: 5px; 
 	color: #ffffff;	
 	padding: 5px;
-/*	font-family: 'work_sansregular';*/
+	font-family: 'work_sansregular';
 }
 .signin{
 	background-image: linear-gradient(#f8d86d, #e6a02b);
@@ -62,7 +54,7 @@ body{
 /*top and middle header section*/
 .mdc-list-item{
 		display: inline;
-		/*font-family: 'work_sansregular';*/
+		font-family: 'work_sansregular';
 }
 
 /*middle hedder section*/
@@ -124,11 +116,11 @@ body{
 	text-align: center;
 	color: #ffffff;
 	text-transform: uppercase;
-	/*font-family: 'work_sansregular';*/
+	font-family: 'work_sansregular';
 }
 .content1,.content2,.content3,.content4,.content5{
 	padding: 12px;
-	/*font-family: 'work_sansregular';*/
+	font-family: 'work_sansregular';
 }
 .head1{
 	background-image: linear-gradient(#f7d66e, #e9a636);
@@ -291,7 +283,7 @@ body{
 	text-align: center;
 }
 .holidays label{
-  	margin-left: 200px;
+  	margin-left: 156px;
  	margin-top: 10px;
 }
 .holidays_txt1{
@@ -333,11 +325,8 @@ body{
 }
 .subheader, .para_txt{
 	text-align: center;
+	 font-family: 'work_sansregular';
 }
-/*.tab_section{
-  	padding-right: 20px;
-   	margin-top: 20px;
-}*/
 .text5{
 	color: #9d1448;
 }
@@ -345,7 +334,7 @@ body{
 	color: #951545
 }
 
-/*6th section*/
+/*6th traveller section start*/
 .banner{
 	background-image: url(../images/banner.jpeg);
 	width: 100%;
@@ -371,9 +360,9 @@ body{
 .title{
 	margin-left: 204px;
 }
-/*.tabs{
+.tabs{
 	font-family: 'work_sansbold';
-}*/
+}
 .material-icons{
 	color: #eebb47;
 }
@@ -389,13 +378,14 @@ body{
 }
 .footer_about{
   color: white;
+  font-family: 'work_sansregular';
 }
 .f_img{
   margin-top: 13px;
 }
 .footer_list2{
   color: #ed8f4f;
-  /*font-family: 'work_sansbold';*/
+  font-family: 'work_sansbold';
 }
 .f_margin{
   margin-top: -25px;
@@ -421,45 +411,47 @@ body{
 .footer_bottom{
  background-color: #38383a;
 }
-/*.font_bold{
+.font_bold{
 	font-family: 'work_sansbold';
-}*/
-/*.font_regular{
+}
+.font_regular{
 	font-family: 'work_sansregular';
-}*/
-/*.font_black{
+}
+.font_black{
 	font-family: 'work_sansblack';
-}*/
-/*@font-face {
+}
+@font-face {
     font-family: 'work_sansblack';
-    src: url('worksans-black-webfont.eot');
-    src: url('worksans-black-webfont.eot?#iefix') format('embedded-opentype'),
-         url('worksans-black-webfont.woff2') format('woff2'),
-         url('worksans-black-webfont.woff') format('woff'),
-         url('worksans-black-webfont.ttf') format('truetype');
+    src: url('../font/worksans-black-webfont.eot');
+    src: url('../font/worksans-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/worksans-black-webfont.woff2') format('woff2'),
+         url('../font/worksans-black-webfont.woff') format('woff'),
+         url('../font/worksans-black-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
 }
+/*for font bold and regular*/
 @font-face {
-    font-family: 'work_sansbold';
-    src: url('worksans-bold-webfont.eot');
-    src: url('worksans-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('worksans-bold-webfont.woff2') format('woff2'),
-         url('worksans-bold-webfont.woff') format('woff'),
-         url('worksans-bold-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'work_sansregular';
+	src: url('../font/worksans-regular-webfont.eot');
+	src: url('../font/worksans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../font/worksans-regular-webfont.woff2') format('woff2'),
+	url('../font/worksans-regular-webfont.woff') format('woff'),
+	url('../font/worksans-regular-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 
 }
-@font-face {
-    font-family: 'work_sansregular';
-    src: url('worksans-regular-webfont.eot');
-    src: url('worksans-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('worksans-regular-webfont.woff2') format('woff2'),
-         url('worksans-regular-webfont.woff') format('woff'),
-         url('worksans-regular-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
 
-}*/
+@font-face {
+	font-family: 'work_sansbold';
+	src: url('../font/worksans-bold-webfont.eot');
+	src: url('../font/worksans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../font/worksans-bold-webfont.woff2') format('woff2'),
+	url('../font/worksans-bold-webfont.woff') format('woff'),
+	url('../font/worksans-bold-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+
+}
