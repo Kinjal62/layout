@@ -112,9 +112,6 @@ body{
 .title{
 	text-transform: uppercase;
 }
-.content_txt{
-	color: black;
-}
 /*2nd section*/
 /*destionation Name section*/
 .head1, .head2, .head3, .head4, .head5{
@@ -128,7 +125,7 @@ body{
 	font-family: 'work_sansregular';
 }
 .head1{
-	background-color: #eaac3f;
+	background-image: linear-gradient(#f7d66e, #e9a636);
 	border: 1px solid #eaac3f;
 }
 .content1{
@@ -138,7 +135,7 @@ body{
 	color: #eaac3f;
 }
 .head2{
-	background-color: #bc2a4d;
+	background-image: linear-gradient(#d03852, #991442);
 	border: 1px solid #bc2a4d; 
 }
 .content2{
@@ -148,7 +145,7 @@ body{
 	color: #bc2a4d;
 }
 .head3{
-	background-color: #3c85c3;
+	background-image: linear-gradient(#549ace, #397dbd);
 	border: 1px solid #3c85c3;
 }
 .content3{
@@ -158,7 +155,7 @@ body{
 	color: #3c85c3;
 }
 .head4{
-	background-color: #573c8b;
+	background-image: linear-gradient(#6b4a96, #4b3185);
 	border: 1px solid #573c8b;
 }
 .content4{
@@ -168,7 +165,7 @@ body{
 	color: #573c8b;
 }
 .head5{
-	background-color: #1c3983;
+	background-image: linear-gradient(#444d99, #1b367e);
 	border: 1px solid #1c3983;
 }
 .content5{
@@ -220,22 +217,22 @@ body{
 	color: #26408a;
 }
 .btn1{
-	background-color: #d42939;
+	background-image: linear-gradient(#e77049, #d22236);
 }
 .btn2{
-	background-color: #f4c55b;
+	background-image: linear-gradient(#f8dc75, #e4a229);
 }
 .btn3{
-	background-color: #348ac5;
+	background-image: linear-gradient(#66a0cd, #397bbe);
 }
 .btn4{
-	background-color: #5c3f8f;
+	background-image: linear-gradient(#72529d, #4a3184);
 }
 .btn5{
-	background-color: #b9294c;
+	background-image: linear-gradient(#cf3952, #9f1844);
 }
 .btn6{
-	background-color: #26408a;
+	background-image: linear-gradient(#364890, #1a347b);
 }
 .text3{
 	color: #e5a137;
@@ -295,25 +292,25 @@ body{
   	color:#6c4c95;
 }
 .holidays_btn1{
-	background-color: #6c4c95;
+	background-image: linear-gradient(#72529d, #4a3184);
 }
 .holidays_txt2{
   	color:#d7383c;
  }
 .holidays_btn2{
-  	background-color: #d7383c;
+  	background-image: linear-gradient(#e77049, #d22236);
 }
 .holidays_txt3{
   	color:#153b86;
 }
 .holidays_btn3{
-  	background-color: #153b86;
+  	background-image: linear-gradient(#364890, #1a347b);
 }
 .holidays_txt4{
   	color:#a31a46;
 }
 .holidays_btn4{
-  	background-color: #a31a46;
+  	background-image: linear-gradient(#cf3952, #9f1844);
 }
 .holidays_txt5{
   	color:#ebaf41;
@@ -326,7 +323,7 @@ body{
   	color:#2d87c3;
 }
 .holidays_btn6{
-  	background-color: #2d87c3;
+  	background-image: linear-gradient(#66a0cd, #397bbe);
 }
 .subheader, .para_txt{
 	text-align: center;
