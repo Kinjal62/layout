@@ -8,8 +8,6 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
-	<script type="text/javascript" src="javascript/custom.js"></script>
 	<!-- top header section -->
 	<div class="top_header">
 		
@@ -39,14 +37,81 @@
 					</select> 
 					<label class="mdc-floating-label">INR</label>
 				</div>	
+				
 				<div class="right_header">
-					<button class="mdc-button--dense signin">
+					<button class="mdc-button--dense signin" id="signin">
 						<span class="mdc-button__label">Sign In</span>
 					</button>
-
-					<button class="mdc-button--dense signup">
+					<div class="mdc-dialog dialog1" role="alertdialog" aria-modal="true" aria-labelledby="my-dialog-title" aria-describedby="my-dialog-content">
+						<div class="mdc-dialog__container">
+							<div class="mdc-dialog__surface">
+								<div class="mdc-card">
+									<h2 class="mdc-dialog__title" id="my-dialog-title">SignIn</h2>
+									<div class="mdc-dialog__content" id="my-dialog-content">
+										<div class="mdc-text-field myText1">
+											<input type="text" id="name" class="mdc-text-field__input">
+											<label class="mdc-floating-label" for="name">Name</label>
+											<div class="mdc-line-ripple"></div>
+										</div>
+										<div class="mdc-text-field myText2">
+											<input type="password" id="pw" class="mdc-text-field__input" required minlength=8>
+											<label for="pw" class="mdc-floating-label">Password</label>
+											<div class="mdc-line-ripple"></div>
+										</div>
+									</div>
+									<footer class="mdc-dialog__actions">
+										<button type="button" class="mdc-button mdc-dialog__button" data-mdc-dialog-action="no" id="login" onclick="signin()">
+											<span class="mdc-button__label">Submit</span>
+										</button>
+										<button type="button" class="mdc-button mdc-dialog__button" data-mdc-dialog-action="yes">
+											<span class="mdc-button__label" id="cancel">Cancel</span>
+										</button>
+									</footer>
+								</div>
+							</div>
+						</div>
+						<div class="mdc-dialog__scrim"></div>
+					</div>
+					<button class="mdc-button--dense signup" id="signup">
 						<span class="mdc-button__label">Registration</span>
 					</button>	
+					<div class="mdc-dialog dialog2" role="alertdialog" aria-modal="true" aria-labelledby="my-dialog-title" aria-describedby="my-dialog-content">
+						<div class="mdc-dialog__container">
+							<div class="mdc-dialog__surface">
+								<div class="mdc-card">
+									<h2 class="mdc-dialog__title" id="my-dialog-title">SignUp</h2>
+									<div class="mdc-dialog__content" id="my-dialog-content">
+										<div class="mdc-text-field myText3">
+											<input type="text" id="fname" class="mdc-text-field__input">
+											<label class="mdc-floating-label" for="fname">First Name</label>
+											<div class="mdc-line-ripple"></div>
+										</div>
+										<div class="mdc-text-field myText4">
+											<input type="text" id="lname" class="mdc-text-field__input">
+											<label class="mdc-floating-label" for="lname">Last Name</label>
+											<div class="mdc-line-ripple"></div>
+										</div>
+										<div class="mdc-text-field myText5">
+											<input type="email" id="email" class="mdc-text-field__input" required>
+											<label for="email" class="mdc-floating-label">Email</label>
+											<div class="mdc-line-ripple"></div>
+										</div>
+										<div class="mdc-text-field myText6">
+											<input type="password" id="pwd" class="mdc-text-field__input" required minlength=8>
+											<label for="pwd" class="mdc-floating-label">Password</label>
+											<div class="mdc-line-ripple"></div>
+										</div>
+									</div>
+									<footer class="mdc-dialog__actions">
+										<button type="button" class="mdc-button mdc-dialog__button" data-mdc-dialog-action="no" id="login" onclick="signup()">
+											<span class="mdc-button__label">Submit</span>
+										</button>
+									</footer>
+								</div>
+							</div>
+						</div>
+						<div class="mdc-dialog__scrim"></div>
+					</div>
 				</div>
 			</ul>
 		</div>
@@ -97,7 +162,7 @@
 	<!-- background image section & content -->
 	<!-- 1st section -->
 	<div class="bgimg">
-		
+
 		<div class="mdc-layout-grid">
 			<div class="mdc-layout-grid__inner">
 				<div class="mdc-layout-grid__cell--span-4"></div>
@@ -107,7 +172,7 @@
 				</div>
 			</div>
 		</div>
-		
+
 	</div>
 	<!-- destionation Name section -->
 
@@ -375,7 +440,7 @@
 										</span>
 										<span class="mdc-tab__ripple"></span>
 									</button>
-									
+
 									<button class="mdc-tab" role="tab" aria-selected="true" tabindex="0">
 										<span class="mdc-tab__content">
 											<span class="mdc-tab__text-label tabs">Dubai Tours</span>
@@ -385,7 +450,7 @@
 										</span>
 										<span class="mdc-tab__ripple"></span>
 									</button>
-									
+
 									<button class="mdc-tab" role="tab" aria-selected="true" tabindex="0">
 										<span class="mdc-tab__content">
 											<span class="mdc-tab__text-label tabs">Mauritius Tours</span>
@@ -722,8 +787,9 @@
 				</div>
 			</div>
 		</div>
-		<script type="text/javascript">
-			mdc.tabBar.MDCTabBar.attachTo(document.querySelector('.mdc-tab-bar'));
-		</script>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+		<script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+		<script type="text/javascript" src="javascript/custom.js"></script>
 	</body>
 	</html>

@@ -6,6 +6,12 @@ body{
 .top_header{
 	background-color: #1c3980;
 }
+.mdc-card{
+	background: linear-gradient(to bottom, #ddd6f3 0%, #faaca8 100%);
+}
+.mdc-card{
+	padding: 5px;
+}
 /*for selector*/
 .selector{
 	border-bottom: 15px;
@@ -20,7 +26,7 @@ body{
 /*top header left side*/
 .top_header_list{
 	color: white;
-	font-family: 'work_sansregular';
+	/*font-family: 'work_sansregular';*/
 }
 .mdc-button--dense{
 	background-color: white;
@@ -45,7 +51,7 @@ body{
 	border-radius: 5px; 
 	color: #ffffff;	
 	padding: 5px;
-	font-family: 'work_sansregular';
+/*	font-family: 'work_sansregular';*/
 }
 .signin{
 	background-image: linear-gradient(#f8d86d, #e6a02b);
@@ -56,7 +62,7 @@ body{
 /*top and middle header section*/
 .mdc-list-item{
 		display: inline;
-		font-family: 'work_sansregular';
+		/*font-family: 'work_sansregular';*/
 }
 
 /*middle hedder section*/
@@ -118,11 +124,11 @@ body{
 	text-align: center;
 	color: #ffffff;
 	text-transform: uppercase;
-	font-family: 'work_sansregular';
+	/*font-family: 'work_sansregular';*/
 }
 .content1,.content2,.content3,.content4,.content5{
 	padding: 12px;
-	font-family: 'work_sansregular';
+	/*font-family: 'work_sansregular';*/
 }
 .head1{
 	background-image: linear-gradient(#f7d66e, #e9a636);
@@ -365,9 +371,9 @@ body{
 .title{
 	margin-left: 204px;
 }
-.tabs{
+/*.tabs{
 	font-family: 'work_sansbold';
-}
+}*/
 .material-icons{
 	color: #eebb47;
 }
@@ -389,7 +395,7 @@ body{
 }
 .footer_list2{
   color: #ed8f4f;
-  font-family: 'work_sansbold';
+  /*font-family: 'work_sansbold';*/
 }
 .f_margin{
   margin-top: -25px;
@@ -415,16 +421,16 @@ body{
 .footer_bottom{
  background-color: #38383a;
 }
-.font_bold{
+/*.font_bold{
 	font-family: 'work_sansbold';
-}
-.font_regular{
+}*/
+/*.font_regular{
 	font-family: 'work_sansregular';
-}
-.font_black{
+}*/
+/*.font_black{
 	font-family: 'work_sansblack';
-}
-@font-face {
+}*/
+/*@font-face {
     font-family: 'work_sansblack';
     src: url('worksans-black-webfont.eot');
     src: url('worksans-black-webfont.eot?#iefix') format('embedded-opentype'),
@@ -456,4 +462,4 @@ body{
     font-weight: normal;
     font-style: normal;
 
-}
+}*/
