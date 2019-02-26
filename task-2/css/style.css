@@ -6,7 +6,7 @@ body{
 .top_header{
 	background-color: #1c3980;
 }
-.mdc-card{
+.bgcard{
 	background: linear-gradient(to bottom, #ddd6f3 0%, #faaca8 100%);
 }
 .mdc-card{
